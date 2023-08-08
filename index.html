@@ -1,16 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Calculador de Aires Acondicionados</title>
 </head>
 <body>
-    
 
+<h2>Calculá que Aire Acondicionado necesitás</h2>
+<p>Introducí los metros cuadrados de tu habitación:</p>
+<input type="number" id="metrosCuadrados" placeholder="Metros Cuadrados">
+<button id="calcularBtn">Calcular</button>
 
+<h3>Estos son los aires que tenemos disponibles para vos:</h3>
+<ul id="listaAires">
+    <!-- Los aires adecuados se listarán aquí -->
+</ul>
 
+<button id="verCarritoBtn">Ver carrito</button>
+<button id="borrarCarritoBtn">Borrar carrito</button>
+<ul id="carrito" style="display:none;">
+    <!-- Los aires agregados al carrito se listarán aquí -->
+</ul>
 
-  <script src="main.js"></script>
+<script src="./js/main.js"></script>
 </body>
 </html>
+
+
+
+
