@@ -1,0 +1,27 @@
+{
+    "fechas": [
+        {
+        "dia": "Lunes", 
+        "fecha": "2023-08-28", 
+        "hora": "10:00 AM"
+        },
+        
+        {
+        "dia": "Martes", 
+        "fecha": "2023-08-29", 
+        "hora": "3:00 PM"
+        },
+
+        {
+        "dia": "Miércoles", 
+        "fecha": "2023-08-30", 
+        "hora": "11:00 AM"
+        },
+
+        {
+        "dia": "Jueves", 
+        "fecha": "2023-08-31", 
+        "hora": "4:00 PM"
+        }
+    ]
+}

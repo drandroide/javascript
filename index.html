@@ -3,31 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
     <title>Calculador de Aires Acondicionados</title>
 </head>
 <body>
 
-<h2>Calculá que Aire Acondicionado necesitás</h2>
-<p>Introducí los metros cuadrados de tu habitación:</p>
-<input type="number" id="metrosCuadrados" placeholder="Metros Cuadrados">
-<button id="calcularBtn">Calcular</button>
+<div class="container mt-5"> 
+    <h2 class="mb-4">Calculá que Aire Acondicionado necesitás</h2>
+    <p>Introducí los metros cuadrados de tu habitación:</p>
+    <div class="input-group mb-3">
+        <input type="number" id="metrosCuadrados" class="form-control" placeholder="Metros Cuadrados">
+        <div class="input-group-append">
+            <button id="calcularBtn" class="btn btn-primary">Calcular</button>
+        </div>
+    </div>
 
-<h3>Estos son los aires que tenemos disponibles para vos:</h3>
-<ul id="listaAires">
-   
-</ul>
+    <h3 class="mt-4 mb-3">Estos son los aires que tenemos disponibles para vos:</h3>
+    <ul id="listaAires" class="list-group mb-3"></ul>
 
-<button id="verCarritoBtn">Ver carrito</button>
-<button id="borrarCarritoBtn">Borrar carrito</button>
-<ul id="carrito" style="display:none;">
-    
-</ul>
-
+    <button id="verCarritoBtn" class="btn btn-success mr-2">Ver carrito</button>
+    <button id="borrarCarritoBtn" class="btn btn-danger">Borrar carrito</button>
+    <ul id="carrito" style="display:none;" class="list-group mt-3"></ul>
+    <div id="fechas-container" class="mt-4"></div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 <script src="./js/main.js"></script>
 </body>
 </html>
-
-
-
-
